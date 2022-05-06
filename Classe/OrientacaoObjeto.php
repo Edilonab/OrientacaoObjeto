@@ -1,5 +1,19 @@
-Orientação a objeto
+<?php
+Class Login {
+    public $name; 
+    public $idade;
+    public $email; 
+
+    public function Logar  (){
+        if (this=>name,idade , email,);
+    
+    }
+}
+
+
+/ *Orientação a objeto
 
 Crie uma classe contendo 3 propriedades com seus respectivos 
 gets e sets e um método que multiplique as 3 retornando o produto.
- Deixe um exemplo de utilização da sua classe no final do código.
+ Deixe um exemplo de utilização da sua classe no final do código.*/
+ ?>
