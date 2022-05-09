@@ -4,12 +4,12 @@
         private $email;
         private $senha; 
         
-        public function getname () {
-            return  $ this -> name ;
+        public function getname() {
+            return  $this->name ;
         }
 
-        public function setname () {
-            $ this -> name = $ name ;
+        public function setname() {
+            $this->name = $name ;
         }
 
         public function getEmail() {
