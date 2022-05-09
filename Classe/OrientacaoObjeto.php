@@ -4,11 +4,11 @@
         private $email;
         private $senha; 
         
-        função  pública getname () {
+        public function getname () {
             return  $ this -> name ;
         }
 
-         função  pública setname () {
+        public function setname () {
             $ this -> name = $ name ;
         }
 
@@ -46,6 +46,12 @@
     $logar->Logar();
     echo "<br>";
     echo $logar->getEmail();
+
+
+
+     /*Ao entrar com Codos os dados e for correto aparecerá logado com sucesso
+     Se os dados não forem todos verdadeiro aparecerá = Dados inválido. */  
+    
 
     /*Orientação a objeto
 
