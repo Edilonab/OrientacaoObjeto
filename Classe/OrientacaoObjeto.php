@@ -3,6 +3,14 @@
         private $name; 
         private $email;
         private $senha; 
+        
+        função  pública getname () {
+            return  $ this -> name ;
+        }
+
+         função  pública setname () {
+            $ this -> name = $ name ;
+        }
 
         public function getEmail() {
             return $this->email;
@@ -23,7 +31,7 @@
 
 
         public function Logar() {
-            if($this->email == "teste@testa.com" and $this-> senha == "123456",):
+            if($this->name == "João" and $this->email == "teste@testa.com" and $this-> senha == "123456",):
                 echo "logado com sucesso!";
             else:
                 echo "Dados inválidos";
@@ -32,6 +40,7 @@
     }
 
     $logar = new Login();
+    $logar->setname(João)
     $logar->setEmail("teste()/@teste.com");
     $logar->setSenha("123456");
     $logar->Logar();
